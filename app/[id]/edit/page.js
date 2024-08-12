@@ -1,13 +1,6 @@
-import ToDoData from "@/app/Ui/toDoData";
+import Edit from "@/app/Ui/edit/edit";
 
-export default function Home() {
-  const today = new Date();
-  const formattedDate = today.toLocaleDateString("en-GB", {
-    day: "2-digit",
-    month: "long",
-    year: "numeric",
-  });
-
+export default function EditPage() {
   return (
     <>
       <div className="h-lvh w-lvw bg-black scroll-y-auto">
@@ -16,10 +9,10 @@ export default function Home() {
         </h1>
         <div className="max-w-4xl mx-auto">
           <h2 className="text-white m-0 p-6 font-thin tracking-widest text-xl">
-            {formattedDate}
+            Edit
           </h2>
           <div className="mx-6">
-            <ToDoData />
+            <Edit />
           </div>
         </div>
       </div>
