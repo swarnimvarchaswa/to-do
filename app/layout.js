@@ -1,7 +1,7 @@
 import { Roboto_Flex } from "next/font/google";
 import "./globals.css";
 
-// const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] }); a
 const roboto = Roboto_Flex({ subsets: ["latin"] });
 
 export const metadata = {
